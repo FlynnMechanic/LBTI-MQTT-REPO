@@ -1,3 +1,5 @@
+//Programm konnte nicht zusammengefügt getestet werden, da Wokwi zu lange zum Kompelieren gebraucht hat.
+
 #include <WiFi.h>
 #include <PubSubClient.h>
 
