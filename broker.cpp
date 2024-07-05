@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 
 // WiFi and MQTT configuration parameters
-const char* ssid = "Your_SSID";
-const char* password = "Your_PASSWORD";
+const char* ssid = "******";
+const char* password = "******";
 const char* mqtt_server = "broker.hivemq.com"; // Public MQTT broker
 
 // WiFi and MQTT client objects
@@ -77,7 +77,5 @@ void loop() {
   }
   client.loop();
 
-  // Example: Sending a message, can be removed or replaced
-  publish_message("test/topic", "Hello from ESP32");
-  delay(2000); // Wait for 2 seconds
+  //
 }
