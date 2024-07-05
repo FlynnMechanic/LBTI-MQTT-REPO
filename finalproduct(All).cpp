@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 
 // WiFi and MQTT configuration parameters
-const char* ssid = "Your_SSID";
-const char* password = "Your_PASSWORD";
+const char* ssid = "Wokwi-GUEST";
+const char* password = "";
 const char* mqtt_server = "broker.hivemq.com"; // Public MQTT broker
 
 // WiFi and MQTT client objects
